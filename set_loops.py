@@ -1,2 +1,5 @@
 def unique_strings(words):
-    pass
+    palabras = set ()
+    for letras in words:
+        palabras.add(letras) 
+    return palabras
